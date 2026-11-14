@@ -1,0 +1,19 @@
+meta {
+  name: reg
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username": "homa2",
+    "password": "homyak",
+    "email": "homa@rodenta.crock"
+  }
+}
