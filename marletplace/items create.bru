@@ -1,0 +1,20 @@
+meta {
+  name: items create
+  type: http
+  seq: 7
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Амир",
+    "description": "Новый, не использованный",
+    "price": 8,
+    "imageUrl": "https://example.com/amir.jpg"
+  }
+}
